@@ -1,0 +1,120 @@
+.display-content {
+    background-color: #FF00CC;
+    padding: 30px;
+    border: 2px solid #CCC;
+    max-width: 600px;
+    margin: auto;
+}
+
+.span-inline {
+    background-color: blue;
+    display: block;
+}
+
+/**
+ * horizontal centering
+ */
+
+.centered-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.centered-content header {
+    background-color: #ccc;
+}
+
+.centered-content section {
+    background-color: #ddd;
+}
+
+.centered-content footer {
+    background-color: #eee;
+}
+
+/**
+ * box-sizing
+ */
+
+.simple-box {
+    width: 500px;
+    margin: 20px auto;
+    border: 2px solid green;
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.fancy-box {
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border: solid blue 10px;
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/**
+ * position
+ */
+
+.container {
+    position: relative;
+}
+nav {
+    position: absolute;
+    right: 0px;
+    width: 200px;
+    border: 2px solid green;
+}
+section {
+    margin-right: 200px;
+    border: 2px solid brown;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    background-color: white;
+    width: 100%;
+    border: 2px solid blue
+}
+body {
+    /*needed because of the footer */
+    margin-bottom: 120px;
+}
+
+/**
+ * float
+ */
+.shaq-left {
+    float:left;
+}
+
+.shaq-right {
+    float:right;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+/**
+ * inline block
+ */
+.product {
+    display: inline-block;
+    border:2px solid #ccc;
+    border-radius: 2px;
+    width: 150px;
+    margin: 15px;
+}
+
+.product img {
+    width: 50px;
+    float: right;
+    position: relative;
+    top: -30px;
+}
